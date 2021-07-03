@@ -4,7 +4,7 @@
 
 USAGE:
 
-    gcc src/main libmy.a
+    gcc src/main.c libmy.a
   
     ./a.out
  
