@@ -1,0 +1,17 @@
+/*
+** EPITECH PROJECT, 2020
+** flag_long_nbr.c
+** File description:
+** print long intergers
+*/
+
+#include "my_printf.h"
+
+int flag_long_nbr(va_list ap)
+{
+    long int nb = va_arg(ap, long int);
+    int counter = counter_nbr(nb);
+
+    my_put_nbr_long(nb);
+    return (counter);
+}
